@@ -1,0 +1,368 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.first {
+    width: 60%;
+    height: 100%;
+    position: relative
+}
+
+.first .nav {
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10%;
+}
+
+.nav #first {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav #sec {
+    height: 25px;
+    font-size: 16px;
+    box-shadow: 0px 1px 0px 0px rgb(146, 145, 145);
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    line-height: 1;
+}
+
+.center h5 {
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 20px 0px;
+    line-height: 1.5;
+}
+
+.center h3 {
+    margin-bottom: -20px;
+    margin-left: -35px;
+}
+
+.center h1 i {
+    background-color: black;
+    color: #ff7700;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.last {
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    top: 60%;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    width: 15%;
+    height: 25%;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color:rgb(255, 145, 0);
+    overflow: hidden;
+}
+
+button .button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+}
+
+button .button h6 {
+    opacity: 0.5;
+}
+
+button .button h3 {
+    font-size: 15px;
+}
+
+button #hey {
+    font-size: 25px;
+}
+
+.sec {
+    width: 40%;
+    height: 100%;
+    background-color:rgb(26, 36, 36);
+    position: relative;
+}
+
+.sec .nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.sec .nav a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9 !important;
+}
+
+.sec .nav p {
+    font-size: 30px;
+    opacity: 0.4;
+    font-weight: 100;
+
+}
+
+.sec .nav h2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.sec .one {
+    color: white;
+    width: 32%;
+    height: 25%;
+    background-color: rebeccapurple;
+    border-radius: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    left: -9%;
+    background-image: url(imgfoot.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec .one i {
+    /* overflow: hidden; */
+    /* display: inline; */
+    color: rgb(255, 120, 36);
+    font-size: 25px;
+}
+
+.sec .two {
+    width: 33%;
+    height: 45%;
+    background-color: rgb(253, 234, 60);
+    border-radius: 30px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-image: url(download.png);
+    background-size: 100%;
+    background-position: 20px 5px;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.sec .two h3 {
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+.sec .two #two {
+    width: 100%;
+    height: 19%;
+    backdrop-filter: blur(150px);
+    margin-top: 120%;
+    margin-left: -15%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec .two #two p {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(42, 38, 38);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.sec .two #two p i {
+    filter: invert(100%);
+    opacity: 0.8;
+}
+
+.sec .three {
+    width: 50%;
+    height: 17%;
+    backdrop-filter: blur(150px);
+    background: linear-gradient(to right, rgb(197, 197, 197), rgb(91, 91, 91), rgb(50, 50, 50));
+    border-radius: 25px;
+    position: absolute;
+    top: 67%;
+    left: -9%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 15px 15px;
+    margin-top: 1px;
+}
+
+.sec .three .ok {
+    width: 95%;
+    height: 7px;
+    background-color: rgba(132, 132, 132, 0.672);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.sec .three .ok #ok {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sec .three #love {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+    filter: invert(100%);
+}
+
+.sec .three .ok #love {
+    margin: 0px, 10px;
+}
+
+.sec .four {
+    width: 50%;
+    height: 25%;
+    background-color: bisque;
+    border-radius: 20px;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.sec .four #ele{
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.sec .four #ele h4{
+    font-weight: 800;
+    
+}
+
+.sec .four #element{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+.sec .four #element h4{
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+.sec .four #element h6{
+    font-weight: 400;
+    font-size: 10px;
+    opacity: 0.8;
+}
+.sec .five{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    z-index: 1;
+    background-image: url(https://media.istockphoto.com/id/153168446/photo/disk.jpg?s=612x612&w=0&k=20&c=SbjdCiVo0xXvAfJ3xiF-jSDZOIPMXXvRUpHlJCcBKR0=);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+}
+#le{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 8px;
+    border-radius: 50%;
+
+}
